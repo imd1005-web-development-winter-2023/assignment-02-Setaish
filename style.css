@@ -232,6 +232,43 @@ nav ul li a:hover::after{
     font-family:'Times New Roman', Times, serif;
     font-size: 15px;
 }
+
+/*-----------another another section--------*/
+
+#portfolio-4{
+    background-color: #1F224B;
+    padding: 50px 0;
+
+}
+.another-another2-list{
+    display: flex;
+    grid-gap: 100px;
+    margin-top: 20px;
+
+}
+
+.work-part4 img{
+ 
+    width: 100%;
+    border-radius: 40px;
+}
+.another-another2-title{
+    padding-bottom: 2%;
+}
+.container-4{
+    padding-left: 9%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+/*-----------The writing part--------*/
+
+.layer{
+  
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 10%;
+}
 /*------------------contact me part-------------*/
 .container-5{
     margin-top: 10%;
@@ -302,9 +339,4 @@ form .btn2{
     margin-top:20 px;
     cursor: pointer;
 
-}
-.logo2{
-    width: 200px;
-    margin-top: 20%;
-    
 }
