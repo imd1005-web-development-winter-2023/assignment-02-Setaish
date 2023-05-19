@@ -1,29 +1,208 @@
 <!DOCTYPE html>
-<html lang="en-ca">
-  <head>
-    <!-- Set the page title -->
-    <title>Assignment 02</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setaish Qayomi's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8c51518c15.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a hfref="#">Home</a></li>
+                    <li><a hfref="#">About Me</a></li>
+                    <li><a hfref="#">Portfolio</a></li>
+                    <li><a hfref="#">Contact</a></li>
+                    <li><a hfref="#">Services</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>3D/2D Designer</p>
+                <h1>Hi, I'm<span> Setaish Qayomi</span><br> Welcome to my Portfolio </h1>
+            </div>
+        </div>
+    </div>
+<!-- ----------about----------- -->
 
-    <!-- Set the charset we're using to UTF-8 -->
-    <meta charset="UTF-8" />
+    <div id="about">
+        <div class="contaier">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user3.png">
+                 </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
 
-    <!-- Set the screens default zoom / scale to 1 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    <!-- Specifies the document mode for Internet Explorer -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                    <p class="para"> I am Setaish Qayomi, a student of Information Technology IMD at Carleton University. Originally from Afghanistan,<br> I moved to Canada in 2013, seeking a more conducive and safe environment to pursue my academic aspirations.<br>From a young age, I have been fascinated by the world of animation, drawn to its limitless potential for creativity and<br> imaginative expression. With a firm resolve to work as a 3D animator, I aspire to contribute my talents to a prominent<br> animation studio. As an avid observer, I am captivated by the captivating storytelling and highly imaginative movies<br> that challenge the boundaries of the imagination. During my pre-teen years, I was inspired to create a few novels, which<br> served as a precursor to my career aspirations in animation and design. I am confident in my ability to apply my skills to<br> these types of fields, including expertise in 3D animation and modelling, creating striking visual designs, and 2D character <br>animation, with an attention to detail and a strong sense of aesthetics. </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>3D Artist</span><br> Proficient in 3D animation and modelling, <br>with expertise in creating visually stunning designs  </li>
+                                <li><span>2D Artist</span><br> Skilled in 2D character design and animation,<br> with an eye for detail and a strong sense of visual aesthetics</li>
+                                <li><span>Professional Painter</span><br> Professional painter with a keen sense of colour,<br> composition, and technique, adept at creating captivating artwork<br> that captures the imagination</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>Sales Associate, Hudson's Bay, Sept. 2022 - Present:</span><br>Drive sales by engaging customers and using suggestive selling techniques.<br>
+                                    Provide expert product knowledge and exceptional customer service.<br>
+                                    Respond to customer inquiries and concerns in a professional and timely manner.<br></li>
+                                <li><span>Professional Painter, March 2020 - Sept. 2022:</span><br> Collaborate with commission clients to establish project goals and deliver high-quality customer service. <br>
+                                Address client concerns and provide customized solutions.<br>
+                                Create preliminary sketches and present design concepts to clients.<br></li>
+                                <li><span>3D Model Developer, Oct. 2021 - Sept. 2022:</span><br>Develop 3D story concepts and visually compelling narratives for clients.<br>
+                                    Provide expert guidance to clients in identifying specific 3D models required for the project.<br>
+                                    Produce high-quality 3D models using industry-standard software and tools such as Blender.
+                                    <br></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>Carleton University, Ottawa, ON, Canada </span><br>Bachelor of Information Technology, Interactive Multimedia and Design (IMD) September 2022 Present</li>
+                                <li><span>Bell High School, Ottawa, ON, Canada</span><br> Ontario Secondary School Diploma (OSSD) & Honor Roll </li>
+                                <li><span>Achievements:</span><br> Academic Scholarship, Ottawa University<br>
+                                    Academic Scholarship, Carleton University<br>
+                                    Law Entrance Scholarship Award, Carleton University<br></li>
+                            </ul>
+                        </div>
+                    </p>
+                </div>
 
-    <!-- We are using a CSS Reset file to standardize browser default css -->
-    <link rel="stylesheet" href="reset.css" />
+            </div>
+        </div>
+    </div>
+    <!-- ------------portfolio--------------- --> 
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1><h2><u>3D Designs/Animation</u></h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-10.png" >
+                <div class="layer">
+                    
+                    <a href="https://youtu.be/O-81EHP0qhs"><i class="fa-solid fa-link"><u>Link To Trailor</u></i></a>
+           </div>
+           
+            </div>
+            <div class="work">
+                <img src="images/work-20.png" >
+            </div>
+        </div>
+    </div>
+</div>
 
-    <!-- This is where all of our awesome CSS code goes -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!--
+<div id="portfolio-2">
 
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+    <div class="container-2">
+        <h1 class="another-title"><h2><u>Paintings Acrylic & Oil</u></h2>
+        <div class="another-list">
+            <div class="work-part2">
+                <img src="images/work-30.png" >
+                
+            </div>
+            <div class="work-part2">
+                <img src="images/work-40.png" >
+            </div>
+        </div>
+    </div>
+</div>
 
-    -->
-  </body>
+<div id="portfolio-3">
+
+    <div class="container-3">
+        <h1 class="another-another-title"><h2><u>Character Designs</u></h2>
+        <div class="another-another-list">
+            <div class="work-part3">
+                <img src="images/work-50.png" >
+                
+            </div>
+            <div class="work-part3">
+                <img src="images/work-60.png" >
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio-4">
+
+    <div class="container-4">
+        <h1 class="another-another2-title"><h2><u>Responsive Game Design/Code </u></h2>
+        <div class="another-another2-list">
+            <div class="work-part4">
+                <img src="images/work-70.png" >
+                <div class="layer">
+                    
+                         <a href="https://imd1005-web-development-winter-2023.github.io/group-project-rackly/ "><i class="fa-solid fa-link"><u>Link To Game</u></i></a>
+                </div>
+                
+            </div>
+            <div class="work-part4">
+                <img src="images/work-80.png" >
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------------contact/ footer------------>
+<div id="contact">
+    <div class="container-5">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>Setaish1qayomi@gmail.com</p><br>
+                <p><i class="fas fa-phone-square-alt"></i>3439989565</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <i class="fa-duotone fa-mailbox"></i>
+                   
+                </div>
+                
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!------------java script delete this before submitting--------- -->
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+       
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+</body>
 </html>
